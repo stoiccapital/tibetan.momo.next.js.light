@@ -1,20 +1,20 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'SaaS Product',
-  description: 'A modern SaaS solution',
-}
+  title: "Tibetan Momo",
+  description: "Authentische tibetische Momos in Regensdorf.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body>{children}</body>
     </html>
-  )
+  );
 }
 

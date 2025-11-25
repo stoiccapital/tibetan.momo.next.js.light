@@ -1,35 +1,33 @@
 export default function ValueProps() {
   const valueProps = [
     {
-      icon: '🔧',
-      title: 'Value Proposition One',
-      description: 'Detailed explanation of how this value proposition helps solve customer problems and delivers real benefits.',
+      icon: '🏔️',
+      title: 'Familienrezepte aus dem Himalaya',
+      description: 'Wir kochen nach Originalrezepten, mit denen wir selbst aufgewachsen sind.',
     },
     {
-      icon: '⚡',
-      title: 'Value Proposition Two',
-      description: 'Detailed explanation of how this value proposition helps solve customer problems and delivers real benefits.',
+      icon: '👨‍🍳',
+      title: 'Frisch und handgemacht',
+      description: 'Jede Momo wird von Hand gefüllt und frisch zubereitet – keine Massenware.',
     },
     {
-      icon: '🎯',
-      title: 'Value Proposition Three',
-      description: 'Detailed explanation of how this value proposition helps solve customer problems and delivers real benefits.',
+      icon: '🥩',
+      title: 'Ehrliche Zutaten',
+      description: 'Schweizer Fleisch, frisches Gemüse und ausgewählte Gewürze.',
     },
     {
-      icon: '🚀',
-      title: 'Value Proposition Four',
-      description: 'Detailed explanation of how this value proposition helps solve customer problems and delivers real benefits.',
-    },
-    {
-      icon: '✨',
-      title: 'Value Proposition Five',
-      description: 'Detailed explanation of how this value proposition helps solve customer problems and delivers real benefits.',
+      icon: '📍',
+      title: 'Zentral in Regensdorf',
+      description: 'Einfach erreichbar im Zentrum Regensdorf – ideal für Take-away oder eine kurze Pause.',
     },
   ]
 
   return (
-    <section>
+    <section id="about">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-12 text-center">
+          Warum Tibetan Momo?
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {valueProps.map((prop, index) => (
             <div

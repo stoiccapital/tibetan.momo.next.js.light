@@ -1,36 +1,28 @@
 export default function FAQ() {
   const faqs = [
     {
-      question: 'What is this product?',
-      answer: 'This is a comprehensive solution designed to solve specific problems and improve workflow efficiency for teams of all sizes.',
+      question: 'Macht ihr alles frisch?',
+      answer: 'Ja. Unsere Momos werden frisch zubereitet – bitte rechne ca. 10 Minuten ein.',
     },
     {
-      question: 'How does it work?',
-      answer: 'Our product integrates seamlessly with your existing tools and provides a unified interface for managing your workflow and processes.',
+      question: 'Brauche ich eine Reservation?',
+      answer: 'Für Take-away nicht. Für grössere Bestellungen oder Events melde dich bitte frühzeitig.',
     },
     {
-      question: 'Is there a free trial?',
-      answer: 'Yes, we offer a 14-day free trial with full access to all features. No credit card required to get started.',
+      question: 'Gibt es vegetarische Optionen?',
+      answer: 'Ja, wir haben vegetarische Momos und weitere fleischlose Gerichte.',
     },
     {
-      question: 'Can I cancel anytime?',
-      answer: 'Absolutely. You can cancel your subscription at any time with no penalties or fees. Your access continues until the end of your billing period.',
+      question: 'Bietet ihr Catering an?',
+      answer: 'Ja, für Partys, Firmen-Events, Geburtstage und mehr – einfach anfragen.',
     },
     {
-      question: 'What kind of support do you offer?',
-      answer: 'We provide email support for all plans, with priority support available on higher tiers. Enterprise customers get dedicated support channels.',
+      question: 'Wo genau befindet ihr euch?',
+      answer: 'Im Zentrum 1, 8105 Regensdorf – Haupteingang West, Zentrum Regensdorf.',
     },
     {
-      question: 'Do you offer integrations?',
-      answer: 'Yes, we integrate with popular tools and platforms. Check our integrations page for the full list of supported services.',
-    },
-    {
-      question: 'Is my data secure?',
-      answer: 'Security is our top priority. We use industry-standard encryption and follow best practices to protect your data at all times.',
-    },
-    {
-      question: 'Can I change plans later?',
-      answer: 'Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, and we\'ll prorate any charges.',
+      question: 'Wie kann ich bestellen?',
+      answer: 'Am einfachsten per WhatsApp oder Telefon – die Buttons auf der Website führen dich direkt dorthin.',
     },
   ]
 
@@ -39,7 +31,7 @@ export default function FAQ() {
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            Frequently Asked Questions
+            Häufige Fragen
           </h2>
         </div>
         <div className="max-w-3xl mx-auto space-y-4">

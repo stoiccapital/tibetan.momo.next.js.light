@@ -22,13 +22,25 @@ export default function MarketingPage() {
         <ValueProps />
         <FeatureSection
           variant="right"
-          title="Feature Section One"
-          description="This is the first feature section that highlights a key capability of the product. It demonstrates how the solution addresses specific needs and provides value to users."
+          eyebrow="Unsere Spezialität"
+          title="Hausgemachte Momos nach Familienrezept"
+          description="Ob klassisch gedämpft oder knusprig frittiert – unsere Momos werden frisch zubereitet und mit tibetischen Gewürzen verfeinert. Wähle zwischen Rind, vegetarisch oder gemischt – immer mit hausgemachter Sauce."
+          bullets={[
+            'Rind-Momos mit Schweizer Fleisch',
+            'Vegetarische Momos mit Spinat, Kartoffeln & Weisskohl',
+            'Frittierte Momos & Shabhalep für extra Crunch',
+          ]}
         />
         <FeatureSection
           variant="left"
-          title="Feature Section Two"
-          description="This is the second feature section that showcases another important aspect of the product. It explains additional functionality and benefits that users can expect."
+          eyebrow="Für besondere Anlässe"
+          title="Party, Firmen-Events oder Geburtstag – wir kochen für euch"
+          description="Ob kleine Runde oder grosses Team – wir liefern frisch zubereitete Momos und tibetische Spezialitäten für deinen Anlass. Gemeinsam planen wir Menge, Auswahl und Zeitpunkt."
+          bullets={[
+            'Party Service für private Feiern',
+            'Firmen-Events & Teamlunch',
+            'Geburtstage & tibetisches Buffet',
+          ]}
         />
         <DeepDive />
         <Testimonials />

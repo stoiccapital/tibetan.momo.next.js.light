@@ -1,29 +1,32 @@
 export default function PainSection() {
   const painPoints = [
     {
-      title: 'Pain Point One',
-      description: 'Description of the first major pain point that your product solves.',
+      title: 'Industrie-Food statt echter Küche',
+      description: 'Viele Restaurants setzen auf Massenware und Fertigprodukte – ohne Seele und echte Geschmackserlebnisse.',
     },
     {
-      title: 'Pain Point Two',
-      description: 'Description of the second major pain point that your product solves.',
+      title: 'Liebloses Take-away ohne Persönlichkeit',
+      description: 'Standardisierte Gerichte, die überall gleich schmecken – ohne Charakter und persönliche Note.',
     },
     {
-      title: 'Pain Point Three',
-      description: 'Description of the third major pain point that your product solves.',
+      title: 'Keine authentischen Momos in der Nähe',
+      description: 'Echte tibetische Momos sind schwer zu finden – viele Imitate, aber wenig Authentizität.',
     },
     {
-      title: 'Pain Point Four',
-      description: 'Description of the fourth major pain point that your product solves.',
+      title: 'Unklare Öffnungszeiten & komplizierte Bestellungen',
+      description: 'Unklare Informationen, komplizierte Bestellprozesse und unzuverlässige Servicezeiten.',
     },
   ]
 
   return (
     <section>
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-12 text-center">
-          The Problems You Face
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-6 text-center">
+          Wenn du mehr willst als Fast Food…
         </h2>
+        <p className="text-lg text-slate-300 mb-12 text-center max-w-3xl mx-auto">
+          Viele Restaurants schmecken gleich – vieles ist industriell, schnell und ohne Seele. Du suchst etwas, das wirklich hausgemacht ist, mit echten Gewürzen und einem Gefühl von Zuhause?
+        </p>
         <div className="grid md:grid-cols-2 gap-6">
           {painPoints.map((pain, index) => (
             <div

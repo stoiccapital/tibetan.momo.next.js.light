@@ -2,35 +2,38 @@ export default function DeepDive() {
   const steps = [
     {
       number: '01',
-      title: 'Step One',
-      description: 'Detailed explanation of the first step in the workflow or process.',
+      title: 'Bestellen',
+      description: 'Schreib uns per WhatsApp oder ruf kurz an und sag uns, was du möchtest.',
     },
     {
       number: '02',
-      title: 'Step Two',
-      description: 'Detailed explanation of the second step in the workflow or process.',
+      title: 'Wir bereiten frisch zu',
+      description: 'Wir kochen deine Momos frisch – meist brauchen wir ca. 10 Minuten.',
     },
     {
       number: '03',
-      title: 'Step Three',
-      description: 'Detailed explanation of the third step in the workflow or process.',
+      title: 'Abholen oder liefern lassen',
+      description: 'Hol deine Bestellung im Zentrum Regensdorf ab oder nutze Lieferdienste wie Uber Eats (falls aktiv).',
     },
     {
       number: '04',
-      title: 'Step Four',
-      description: 'Detailed explanation of the fourth step in the workflow or process.',
+      title: 'Geniessen',
+      description: 'Noch heiss, direkt aus unserer Küche – am besten sofort geniessen. 😉',
     },
   ]
 
   return (
-    <section>
+    <section id="service">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
+          <div className="text-sm text-slate-400 uppercase tracking-wider mb-4">
+            So einfach geht's
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
-            How It Works
+            Von der Bestellung bis zu deinen Momos
           </h2>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-            A deep dive into the workflow and process that makes our solution effective.
+            Ob spontan oder geplant – so kommst du schnell zu deinen frisch zubereiteten Momos.
           </p>
         </div>
 

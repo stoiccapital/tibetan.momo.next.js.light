@@ -1,8 +1,8 @@
 export default function MarketingLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <>{children}</>
+  return <div>{children}</div>;
 }
 
