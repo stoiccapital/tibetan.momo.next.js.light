@@ -3,6 +3,6 @@ export default function MarketingLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div>{children}</div>;
+  return <>{children}</>;
 }
 
