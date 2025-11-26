@@ -23,7 +23,7 @@ export default function DeepDive() {
   ]
 
   return (
-    <section id="service" className="bg-gray-50 text-neutral-900">
+    <section id="service" className="bg-gray-50 text-neutral-900 scroll-mt-28">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
           <div className="text-sm text-neutral-600 uppercase tracking-wider mb-4">

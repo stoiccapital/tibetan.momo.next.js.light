@@ -18,7 +18,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between rounded-full bg-white/90 border border-neutral-200/70 backdrop-blur-md shadow-soft px-4 py-2 md:px-6 md:py-2.5">
           {/* Logo */}
           <div className="text-neutral-900 font-semibold text-base md:text-lg">
-            <span className="font-semibold tracking-tight">Tibetan Momo</span>
+            <a
+              href="#top"
+              className="font-semibold tracking-tight hover:text-neutral-700 transition-colors"
+            >
+              Tibetan Momo
+            </a>
           </div>
 
           {/* Desktop Links */}

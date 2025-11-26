@@ -23,7 +23,7 @@ export default function ValueProps() {
   ]
 
   return (
-    <section id="about" className="bg-gray-50 text-neutral-900">
+    <section id="about" className="bg-gray-50 text-neutral-900 scroll-mt-28">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-12 text-center font-serif">
           Warum Tibetan Momo?

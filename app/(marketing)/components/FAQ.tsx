@@ -27,7 +27,7 @@ export default function FAQ() {
   ]
 
   return (
-    <section id="faq" className="bg-white text-neutral-900">
+    <section id="faq" className="bg-white text-neutral-900 scroll-mt-28">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4 font-serif">
