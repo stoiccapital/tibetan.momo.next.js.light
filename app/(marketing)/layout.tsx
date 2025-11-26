@@ -3,6 +3,10 @@ export default function MarketingLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <div className="bg-white text-neutral-900">
+      {children}
+    </div>
+  );
 }
 

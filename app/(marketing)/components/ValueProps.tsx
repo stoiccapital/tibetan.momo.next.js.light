@@ -23,22 +23,22 @@ export default function ValueProps() {
   ]
 
   return (
-    <section id="about">
+    <section id="about" className="bg-gray-50 text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-12 text-center">
           Warum Tibetan Momo?
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {valueProps.map((prop, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-white/5 bg-slate-900/20"
+              className="p-6 rounded-xl border border-neutral-200 bg-white"
             >
               <div className="text-4xl mb-4">{prop.icon}</div>
-              <h3 className="text-xl font-semibold text-slate-100 mb-3">
+              <h3 className="text-xl font-semibold text-neutral-900 mb-3">
                 {prop.title}
               </h3>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-neutral-700 leading-relaxed">
                 {prop.description}
               </p>
             </div>

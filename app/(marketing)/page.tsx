@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 
 export default function MarketingPage() {
   return (
-    <div className="min-h-screen bg-[#050509]">
+    <div className="min-h-screen bg-white">
       <Navbar />
       <main className="space-y-24 md:space-y-32 lg:space-y-40 pt-16">
         <Hero />

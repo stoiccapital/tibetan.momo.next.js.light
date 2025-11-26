@@ -23,13 +23,13 @@ export default function Testimonials() {
   ]
 
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="bg-white text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
             Was Gäste über uns sagen
           </h2>
-          <p className="text-lg text-slate-300 mb-2">
+          <p className="text-lg text-neutral-700 mb-2">
             ★ 5.0/5 basierend auf 70+ Google-Bewertungen
           </p>
         </div>
@@ -37,13 +37,13 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-white/5 bg-slate-900/20"
+              className="p-6 rounded-xl border border-neutral-200 bg-gray-50"
             >
-              <p className="text-slate-300 mb-6 leading-relaxed">
+              <p className="text-neutral-700 mb-6 leading-relaxed">
                 "{testimonial.quote}"
               </p>
               <div>
-                <div className="font-semibold text-slate-100">{testimonial.name}</div>
+                <div className="font-semibold text-neutral-900">{testimonial.name}</div>
               </div>
             </div>
           ))}

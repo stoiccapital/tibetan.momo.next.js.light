@@ -27,10 +27,10 @@ export default function FAQ() {
   ]
 
   return (
-    <section id="faq">
+    <section id="faq" className="bg-white text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
             Häufige Fragen
           </h2>
         </div>
@@ -38,12 +38,12 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-white/5 bg-slate-900/20"
+              className="p-6 rounded-xl border border-neutral-200 bg-gray-50"
             >
-              <h3 className="text-lg font-semibold text-slate-100 mb-3">
+              <h3 className="text-lg font-semibold text-neutral-900 mb-3">
                 {faq.question}
               </h3>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-neutral-700 leading-relaxed">
                 {faq.answer}
               </p>
             </div>

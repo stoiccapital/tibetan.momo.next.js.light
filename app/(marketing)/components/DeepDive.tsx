@@ -23,16 +23,16 @@ export default function DeepDive() {
   ]
 
   return (
-    <section id="service">
+    <section id="service" className="bg-gray-50 text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <div className="text-sm text-slate-400 uppercase tracking-wider mb-4">
+          <div className="text-sm text-neutral-600 uppercase tracking-wider mb-4">
             So einfach geht's
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
             Von der Bestellung bis zu deinen Momos
           </h2>
-          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+          <p className="text-lg text-neutral-700 max-w-2xl mx-auto">
             Ob spontan oder geplant – so kommst du schnell zu deinen frisch zubereiteten Momos.
           </p>
         </div>
@@ -43,17 +43,17 @@ export default function DeepDive() {
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 {index < steps.length - 1 && (
-                  <div className="absolute left-6 top-16 bottom-0 w-px bg-white/5" />
+                  <div className="absolute left-6 top-16 bottom-0 w-px bg-neutral-200" />
                 )}
                 <div className="flex gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full border border-white/5 bg-slate-900/20 flex items-center justify-center text-slate-300 font-semibold">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full border border-neutral-200 bg-white flex items-center justify-center text-neutral-700 font-semibold">
                     {step.number}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-slate-100 mb-2">
+                    <h3 className="text-xl font-semibold text-neutral-900 mb-2">
                       {step.title}
                     </h3>
-                    <p className="text-slate-300 leading-relaxed">
+                    <p className="text-neutral-700 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
@@ -64,7 +64,7 @@ export default function DeepDive() {
 
           {/* Visual Placeholder */}
           <div>
-            <div className="h-96 rounded-3xl border border-white/5 bg-gradient-to-b from-slate-900/80 to-black/80" />
+            <div className="h-96 rounded-3xl border border-neutral-200 bg-gradient-to-b from-neutral-100 to-neutral-200" />
           </div>
         </div>
       </div>

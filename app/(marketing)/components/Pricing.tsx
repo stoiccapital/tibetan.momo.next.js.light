@@ -28,15 +28,15 @@ export default function Pricing() {
   ]
 
   return (
-    <section id="menu">
+    <section id="menu" className="bg-gray-50 text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-100 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
             Unsere beliebtesten Momos
           </h2>
           <a
             href="#menu"
-            className="text-slate-300 hover:text-slate-100 text-sm underline"
+            className="text-neutral-700 hover:text-neutral-900 text-sm underline"
           >
             Komplette Speisekarte ansehen →
           </a>
@@ -47,22 +47,22 @@ export default function Pricing() {
               key={index}
               className={`p-8 rounded-xl border ${
                 item.popular
-                  ? 'border-white/10 bg-slate-900/40'
-                  : 'border-white/5 bg-slate-900/20'
+                  ? 'border-neutral-300 bg-white'
+                  : 'border-neutral-200 bg-white'
               }`}
             >
               {item.popular && (
-                <div className="text-xs font-semibold text-slate-100 bg-white/5 inline-block px-3 py-1 rounded-full mb-4">
+                <div className="text-xs font-semibold text-neutral-900 bg-neutral-100 inline-block px-3 py-1 rounded-full mb-4">
                   Beliebt
                 </div>
               )}
-              <h3 className="text-2xl font-bold text-slate-100 mb-2">{item.name}</h3>
-              <p className="text-slate-300 mb-6">{item.description}</p>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{item.name}</h3>
+              <p className="text-neutral-700 mb-6">{item.description}</p>
               <ul className="space-y-3 mb-8">
                 {item.prices.map((price, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-slate-400 mt-1">✓</span>
-                    <span className="text-slate-300">{price}</span>
+                    <span className="text-neutral-600 mt-1">✓</span>
+                    <span className="text-neutral-700">{price}</span>
                   </li>
                 ))}
               </ul>
@@ -72,8 +72,8 @@ export default function Pricing() {
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-lg font-medium transition-colors block text-center ${
                   item.popular
-                    ? 'bg-slate-100 text-[#050509] hover:bg-slate-200'
-                    : 'border border-white/5 text-slate-100 hover:bg-white/5'
+                    ? 'bg-neutral-900 text-white hover:bg-neutral-800'
+                    : 'border border-neutral-300 text-neutral-900 hover:bg-neutral-50'
                 }`}
               >
                 Bestellen
