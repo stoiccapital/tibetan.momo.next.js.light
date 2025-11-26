@@ -1,9 +1,9 @@
 export default function FinalCTA() {
   return (
-    <section className="bg-gray-50 text-neutral-900">
+    <section className="bg-gradient-to-b from-brand-50 via-white to-brand-50/60 text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center py-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-6 font-serif">
             Bereit für frische Momos?
           </h2>
           <p className="text-lg text-neutral-700 mb-8 max-w-2xl mx-auto">
@@ -14,13 +14,13 @@ export default function FinalCTA() {
               href="https://wa.me/41765795926?text=Hallo!%20Ich%20m%C3%B6chte%20gerne%20Momos%20bestellen."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-neutral-900 text-white rounded-lg font-medium hover:bg-neutral-800 transition-colors"
+              className="px-8 py-4 bg-brand-600 text-white rounded-xl font-medium hover:bg-brand-700 transition-colors shadow-soft"
             >
               Jetzt per WhatsApp bestellen
             </a>
             <a
               href="#menu"
-              className="px-8 py-4 border border-neutral-300 text-neutral-900 rounded-lg font-medium hover:bg-neutral-50 transition-colors"
+              className="px-8 py-4 border border-neutral-300 text-neutral-900 rounded-xl font-medium hover:bg-neutral-50 transition-colors"
             >
               Speisekarte ansehen
             </a>

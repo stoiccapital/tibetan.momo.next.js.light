@@ -21,7 +21,7 @@ export default function FeatureSection({ variant, eyebrow, title, description, b
                 {eyebrow}
               </div>
             )}
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-6 font-serif">
               {title}
             </h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
@@ -43,7 +43,11 @@ export default function FeatureSection({ variant, eyebrow, title, description, b
 
           {/* Placeholder Screenshot */}
           <div className={isRight ? 'md:col-start-1 md:row-start-1' : ''}>
-            <div className="h-64 md:h-80 rounded-3xl border border-neutral-200 bg-gradient-to-b from-neutral-100 to-neutral-200" />
+            <div className="h-64 md:h-80 rounded-3xl border border-neutral-200 bg-gradient-to-br from-brand-50 via-white to-brand-100 shadow-soft overflow-hidden">
+              <div className="w-full h-full flex items-center justify-center text-neutral-300 text-xs md:text-sm">
+                Platzhalter für Event- / Küchenfoto
+              </div>
+            </div>
           </div>
         </div>
       </div>

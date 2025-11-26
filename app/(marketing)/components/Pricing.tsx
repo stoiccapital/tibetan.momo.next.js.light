@@ -31,7 +31,7 @@ export default function Pricing() {
     <section id="menu" className="bg-gray-50 text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4 font-serif">
             Unsere beliebtesten Momos
           </h2>
           <a
@@ -47,12 +47,12 @@ export default function Pricing() {
               key={index}
               className={`p-8 rounded-xl border ${
                 item.popular
-                  ? 'border-neutral-300 bg-white'
-                  : 'border-neutral-200 bg-white'
-              }`}
+                  ? 'border-neutral-300 bg-white shadow-soft ring-1 ring-brand-100 hover:shadow-2xl hover:-translate-y-1'
+                  : 'border-neutral-200 bg-white/90 shadow-sm hover:shadow-soft hover:-translate-y-1'
+              } transition-all duration-200`}
             >
               {item.popular && (
-                <div className="text-xs font-semibold text-neutral-900 bg-neutral-100 inline-block px-3 py-1 rounded-full mb-4">
+                <div className="text-xs font-semibold text-brand-700 bg-brand-50 inline-block px-3 py-1 rounded-full mb-4">
                   Beliebt
                 </div>
               )}
@@ -72,7 +72,7 @@ export default function Pricing() {
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-lg font-medium transition-colors block text-center ${
                   item.popular
-                    ? 'bg-neutral-900 text-white hover:bg-neutral-800'
+                    ? 'bg-brand-600 text-white hover:bg-brand-700'
                     : 'border border-neutral-300 text-neutral-900 hover:bg-neutral-50'
                 }`}
               >

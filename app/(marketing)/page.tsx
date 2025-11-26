@@ -15,7 +15,7 @@ export default function MarketingPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <main className="space-y-24 md:space-y-32 lg:space-y-40 pt-16">
+      <main className="space-y-24 md:space-y-32 lg:space-y-40 pt-20">
         <Hero />
         <LogoStrip />
         <PainSection />

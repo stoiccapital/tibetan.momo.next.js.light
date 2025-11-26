@@ -30,7 +30,7 @@ export default function FAQ() {
     <section id="faq" className="bg-white text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4 font-serif">
             Häufige Fragen
           </h2>
         </div>
@@ -38,7 +38,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-neutral-200 bg-gray-50"
+              className="p-6 rounded-xl border border-neutral-200 bg-white/90 shadow-sm hover:shadow-soft hover:-translate-y-1 transition-all duration-200"
             >
               <h3 className="text-lg font-semibold text-neutral-900 mb-3">
                 {faq.question}

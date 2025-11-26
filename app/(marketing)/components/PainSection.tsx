@@ -21,7 +21,7 @@ export default function PainSection() {
   return (
     <section className="bg-white text-neutral-900">
       <div className="mx-auto max-w-6xl px-6 md:px-8 lg:px-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-6 text-center font-serif">
           Wenn du mehr willst als Fast Food…
         </h2>
         <p className="text-lg text-neutral-700 mb-12 text-center max-w-3xl mx-auto">
@@ -31,7 +31,7 @@ export default function PainSection() {
           {painPoints.map((pain, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-neutral-200 bg-gray-50"
+              className="p-6 rounded-xl border border-neutral-200 bg-white/90 shadow-sm hover:shadow-soft hover:-translate-y-1 transition-all duration-200"
             >
               <h3 className="text-xl font-semibold text-neutral-900 mb-3">
                 {pain.title}
